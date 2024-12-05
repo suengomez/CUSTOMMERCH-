@@ -1,0 +1,352 @@
+     /* Estilos para la navegación */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+ /* Fondo de página con opacidad */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("E:\\tabajo del viernes 28 noviembre\\IMAGENES modificadas\\CUSTOMMERCH.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            opacity: 0.2; /* Ajusta la opacidad aquí */
+            z-index: -1; /* Coloca la imagen detrás del contenido */
+        }
+
+        /* Estilos para la navegación */
+        nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+    border: 2px solid black;
+}
+
+nav ul li {
+    margin: 0 5px; /* Espacio entre los botones */
+}
+
+nav ul li a {
+    display: block; /* Asegura que el enlace ocupe todo el espacio disponible del li */
+    width: 180px; /* Establece el ancho del enlace */
+    height: 23px; /* Establece la altura del enlace */
+    text-align: center; /* Centra el texto dentro de la caja */
+    line-height: 20px; /* Centra el texto verticalmente */
+    text-decoration: none; /* Elimina subrayado */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Estilo de fuente */
+    background-color: #e5e7e9 ; /* Fondo del enlace */
+    border: 1px solid black; /* Borde del enlace */
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Cambia el fondo al pasar el ratón */
+}
+
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        /* Estilos adicionales */
+        section {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Estilos del formulario */
+        #formulario-contacto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        #formulario-contacto form {
+            background-color: lightblue;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        #formulario-contacto form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        #formulario-contacto form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        #formulario-contacto form button {
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #formulario-contacto form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: black;
+        }
+		/* Estilos para los botones de navegación */
+.boton-nav {
+    display: inline-block;
+    background-color: #82cdc5 #d6edeb ;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-nav:hover {
+    background-color: #45a049;
+}
+
+/* Estilos generales para las secciones de productos */
+section {
+    padding: 20px;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para los encabezados de cada subcategoría */
+h3 {
+    color: #333;
+    text-align: center;
+}
+/* Fondo de página con opacidad */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:\\Users\\Tame\\Desktop\\1 PAGINA WEB\\IMAGENES\\CUSTOMMERCH.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.2; /* Ajusta la opacidad aquí */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+
+/* Estilos para el encabezado (header) con fondo negro */
+header {
+    background-color: #c3c3c3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    margin-right: 20px; /* Espacio a la derecha del logo */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales */
+section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos del formulario */
+#formulario-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#formulario-contacto form {
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+#formulario-contacto form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#formulario-contacto form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#formulario-contacto form button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario-contacto form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el pie de página (footer) con fondo negro */
+footer {
+    background-color: #c3c3c3;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black; /* Cambiar a blanco para que se vea sobre el fondo negro */
+}
+
+footer ul li a:hover {
+    color: lightblue; /* O cualquier color que prefieras */
+}
